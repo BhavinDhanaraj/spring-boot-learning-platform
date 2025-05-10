@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Spring Boot Learning Platform
+# LearnSpring
 
 > A project-based curriculum for learning Spring Boot, inspired by The Odin Project
 
