@@ -1,0 +1,37 @@
+# Site settings
+title: Spring Boot Learning Platform
+description: An open-source, project-based curriculum for learning Spring Boot
+baseurl: "/spring-boot-learning-platform" # The subpath of your site, e.g., /blog
+url: "https://your-username.github.io" # The base hostname & protocol
+repository: your-username/spring-boot-learning-platform
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
+  - CONTRIBUTING.md
+  
+# Navigation structure
+navigation:
+  - title: Home
+    url: /
+  - title: Curriculum
+    url: /curriculum/
+    subitems:
+      - title: 1. Foundations
+        url: /curriculum/1-foundations/
+      - title: 2. Spring Boot Basics
+        url: /curriculum/2-spring-boot-basics/
+      # Add more as you develop content
